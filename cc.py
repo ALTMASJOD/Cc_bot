@@ -4,9 +4,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 import os
 
-BOT_TOKEN = "8211876425:AAEhdEp_Qa70R_nwHpsMx2nNAc9ZtTwjDBE"
+BOT_TOKEN = "8211876425:AAGvYS63Z_naExcqDyQq-O6zh0duuAalvWU"
 ADMIN_IDS = [7299213012]  # Add your Telegram user ID here
-
 APPROVED_FILE = "approved_users.txt"
 
 logging.basicConfig(level=logging.INFO)
